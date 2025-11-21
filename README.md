@@ -1,4 +1,4 @@
-<<Smart Daily Assistant>>
+Smart Daily Assistant
 
 Kısa açıklama: React Native ile geliştirilmiş, kullanıcı metinlerini AI destekli duygu analizi ile sınıflandıran mobil uygulama.
 
