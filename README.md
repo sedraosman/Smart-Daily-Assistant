@@ -26,11 +26,11 @@ Android Emulator
 - visual Studio Code
 
 #kurulum adımları
-1.önce proje dosyası yuklenır
-2.visual Studio Code'ta kurulur
-3.terminelde:
-  npm install
-4.Android Studio kurulur 
+- önce proje dosyası yuklenır
+- visual Studio Code'ta kurulur
+- terminelde:
+  (npm install)
+- Android Studio kurulur 
   Emülatör Başlatma:
 cihazın yanındaki Play ikonuna bas → Emülatör açılır.
 eğer emülatör mevcut degılse bu video dan yola çıkarak kura bilirsiniz
@@ -39,23 +39,23 @@ eğer emülatör mevcut degılse bu video dan yola çıkarak kura bilirsiniz
 
 
 #React Native CLI ile Uygulamayı Çalıştırma
-1.Metro Bundler’ı başlat:
+- Metro Bundler’ı başlat:
     (npx react-native start)
-2.Başka bir terminal açın ve Android için uygulamayı çalıştırın:
+- Başka bir terminal açın ve Android için uygulamayı çalıştırın:
     (npx react-native run-android)
 Emülatör çalışıyorsa uygulama otomatik açılır.
 
 #Kullanılan AI Modeli ve API:
 AI Modeli:
 https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest
--> Metinleri pozitif, negatif veya nötr olarak sınıflandırır.
--> Mobil uygulamalarda hızlı ve doğru sonuç verir.
+- Metinleri pozitif, negatif veya nötr olarak sınıflandırır.
+- Mobil uygulamalarda hızlı ve doğru sonuç verir.
 API:
 https://huggingface.co/docs/inference-providers/index
--> Önce API’den gelen veri test edilerek formatı ve içeriği anlaşılır
--> Modeli doğrudan Hugging Face sunucularında çalıştırır.
--> React Native uygulamasında axios ile çağrılır.
--> API Key gerektirir, .env dosyasında saklı
+- Önce API’den gelen veri test edilerek formatı ve içeriği anlaşılır
+- Modeli doğrudan Hugging Face sunucularında çalıştırır.
+- React Native uygulamasında axios ile çağrılır.
+- API Key gerektirir, .env dosyasında saklı
 
 #AI araç kullanımı:
 React Native ile projeyi ilk kez geliştiriyorum;Projede AI’dan yalnızca rehberlik ve arayüz tasarımı için biraz yardım aldım; API ve AsyncStorage işlemleri tamamen bana ait.
