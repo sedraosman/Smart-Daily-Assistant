@@ -60,4 +60,4 @@ https://huggingface.co/docs/inference-providers/index
 #AI araç kullanımı:
 React Native ile projeyi ilk kez geliştiriyorum;Projede AI’dan yalnızca rehberlik ve arayüz tasarımı için biraz yardım aldım; API ve AsyncStorage işlemleri tamamen bana ait.
 
-#Uygulamanın kısa ekran videosu mevcutur (ekran_video) adında
+#Uygulamanın kısa ekran videosu mevcutur (ekran_video) adında: https://drive.google.com/file/d/1P6tFdTq_67_SjmnE7n9uPzXQfVekbHhb/view?usp=sharing
