@@ -98,7 +98,7 @@ export const SentimentProvider = ({ children }: { children: ReactNode }) => {
       );
 
       const data = response.data;
-      // data = [ [ {label, score}, {label, score}, {label, score} ] ]
+      
 
       if (Array.isArray(data) && Array.isArray(data[0])) {
         const arr = data[0];
