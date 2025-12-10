@@ -1,63 +1,105 @@
 Smart Daily Assistant
 
-Kısa açıklama: React Native ile geliştirilmiş, kullanıcı metinlerini AI destekli duygu analizi ile sınıflandıran mobil uygulama.
+Short Description:
+A mobile application built with React Native that classifies user text using AI-powered sentiment analysis.
 
-#Technologies:
+Technologies
+
 React Native
+
 JavaScript / TypeScript
+
 Context API
+
 HuggingFace Inference API
+
 Android Emulator
 
-#Özellikler 
-- Kullanıcıdan metin girişi alma
-- Hugging Face API ile AI destekli duygu analizi yapma
-- Analiz sonuçlarını pozitif, negatif veya nötr olarak gösterme
-- Geçmiş analizleri AsyncStorage ile saklama
-- Haftalık özet ekranı(offline olarak çalışır)
-- Basit ve kullanıcı dostu arayüz
+Features
 
-#Gereksinimle
-- Node.js   
-- npm veya yarn 
-- React Native CLI 
-- Android Studio (emülatör veya gerçek cihaz için) -
-- ava Development Kit (JDK)
-- visual Studio Code
+Accepts text input from the user
 
-#kurulum adımları
-- önce proje dosyası yuklenır
-- visual Studio Code'ta kurulur
-- terminelde:
-  (npm install)
-- Android Studio kurulur 
-  Emülatör Başlatma:
-cihazın yanındaki Play ikonuna bas → Emülatör açılır.
-eğer emülatör mevcut degılse bu video dan yola çıkarak kura bilirsiniz
--->https://www.youtube.com/watch?v=sdrqDQAC3Gw 
-(08:00) dakikadan baslayan adımları takip edebilirsiniz
+Performs AI-powered sentiment analysis using the Hugging Face API
+
+Displays results as positive, negative, or neutral
+
+Saves previous analyses using AsyncStorage
+
+Weekly summary screen (works offline)
+
+Simple and user-friendly interface
+
+Requirements
+
+Node.js
+
+npm or yarn
+
+React Native CLI
+
+Android Studio (for emulator or real device)
+
+Java Development Kit (JDK)
+
+Visual Studio Code
+
+Installation Steps
+
+Download the project files
+
+Open the project in Visual Studio Code
+
+In the terminal, run:
+
+npm install
 
 
-#React Native CLI ile Uygulamayı Çalıştırma
-- Metro Bundler’ı başlat:
-    (npx react-native start)
-- Başka bir terminal açın ve Android için uygulamayı çalıştırın:
-    (npx react-native run-android)
-Emülatör çalışıyorsa uygulama otomatik açılır.
+Install Android Studio
 
-#Kullanılan AI Modeli ve API:
-AI Modeli:
+Start the emulator:
+Click the Play icon next to the device → The emulator will launch.
+
+If no emulator exists, you can create one using this video tutorial:
+→ https://www.youtube.com/watch?v=sdrqDQAC3Gw
+
+Follow the steps starting at 08:00.
+
+Running the App with React Native CLI
+
+Start Metro Bundler:
+
+npx react-native start
+
+
+Open another terminal and run the Android app:
+
+npx react-native run-android
+
+
+If the emulator is running, the app will open automatically.
+
+AI Model and API Used
+AI Model:
+
 https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest
-- Metinleri pozitif, negatif veya nötr olarak sınıflandırır.
-- Mobil uygulamalarda hızlı ve doğru sonuç verir.
+
+Classifies text as positive, negative, or neutral
+
+Provides fast and accurate results for mobile apps
+
 API:
+
 https://huggingface.co/docs/inference-providers/index
-- Önce API’den gelen veri test edilerek formatı ve içeriği anlaşılır
-- Modeli doğrudan Hugging Face sunucularında çalıştırır.
-- React Native uygulamasında axios ile çağrılır.
-- API Key gerektirir, .env dosyasında saklı
 
-#AI araç kullanımı:
-React Native ile projeyi ilk kez geliştiriyorum;Projede AI’dan yalnızca rehberlik ve arayüz tasarımı için biraz yardım aldım; API ve AsyncStorage işlemleri tamamen bana ait.
+First, the API response is tested to understand its structure
 
-#Uygulamanın kısa ekran videosu mevcutur (ekran_video) adında: https://drive.google.com/file/d/1P6tFdTq_67_SjmnE7n9uPzXQfVekbHhb/view?usp=sharing
+Runs the model directly on Hugging Face servers
+
+Called using axios in the React Native app
+
+Requires an API Key stored in a .env file
+
+App Demo
+
+A short demo video of the app is available (named ekran_video):
+https://drive.google.com/file/d/1P6tFdTq_67_SjmnE7n9uPzXQfVekbHhb/view?usp=sharing
