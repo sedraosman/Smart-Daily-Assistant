@@ -99,7 +99,4 @@ Called using axios in the React Native app
 
 Requires an API Key stored in a .env file
 
-App Demo
 
-A short demo video of the app is available (named ekran_video):
-https://drive.google.com/file/d/1P6tFdTq_67_SjmnE7n9uPzXQfVekbHhb/view?usp=sharing
