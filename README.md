@@ -1,102 +1,81 @@
-Smart Daily Assistant
+# 🤖 Smart Daily Assistant
 
-Short Description:
-A mobile application built with React Native that classifies user text using AI-powered sentiment analysis.
+Smart Daily Assistant is a mobile application built with **React Native** that classifies user text using **AI-powered sentiment analysis**.  
+The app analyzes user input and determines whether the sentiment is positive, negative, or neutral through an external AI model.
 
-Technologies
+---
 
-React Native
+## 🚀 Features
 
-JavaScript / TypeScript
+- Accepts text input from the user  
+- Performs AI-powered sentiment analysis  
+- Displays sentiment results as **positive, negative, or neutral**  
+- Saves previous analyses using AsyncStorage  
+- Weekly summary screen (works offline)  
+- Simple and user-friendly interface  
 
-Context API
+---
 
-HuggingFace Inference API
+## ⚙️ Technologies & Tools
 
-Android Emulator
+- React Native  
+- JavaScript / TypeScript  
+- Context API  
+- Hugging Face Inference API  
+- Axios  
+- AsyncStorage  
+- Android Emulator  
 
-Features
+---
 
-Accepts text input from the user
+## 🧠 AI Model & API
 
-Performs AI-powered sentiment analysis using the Hugging Face API
+### AI Model
+- **twitter-roberta-base-sentiment-latest**  
+- Classifies text as positive, negative, or neutral  
+- Optimized for fast and accurate sentiment analysis  
 
-Displays results as positive, negative, or neutral
-
-Saves previous analyses using AsyncStorage
-
-Weekly summary screen (works offline)
-
-Simple and user-friendly interface
-
-Requirements
-
-Node.js
-
-npm or yarn
-
-React Native CLI
-
-Android Studio (for emulator or real device)
-
-Java Development Kit (JDK)
-
-Visual Studio Code
-
-Installation Steps
-
-Download the project files
-
-Open the project in Visual Studio Code
-
-In the terminal, run:
-
-npm install
-
-
-Install Android Studio
-
-Start the emulator:
-Click the Play icon next to the device → The emulator will launch.
-
-If no emulator exists, you can create one using this video tutorial:
-→ https://www.youtube.com/watch?v=sdrqDQAC3Gw
-
-Follow the steps starting at 08:00.
-
-Running the App with React Native CLI
-
-Start Metro Bundler:
-
-npx react-native start
-
-
-Open another terminal and run the Android app:
-
-npx react-native run-android
-
-
-If the emulator is running, the app will open automatically.
-
-AI Model and API Used
-AI Model:
-
+Model link:  
 https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest
 
-Classifies text as positive, negative, or neutral
+### API
+- Hugging Face Inference API  
+- Runs the model directly on Hugging Face servers  
+- Integrated into the app using Axios  
+- Requires an API key stored in a `.env` file  
 
-Provides fast and accurate results for mobile apps
-
-API:
-
+API documentation:  
 https://huggingface.co/docs/inference-providers/index
 
-First, the API response is tested to understand its structure
+---
 
-Runs the model directly on Hugging Face servers
+## 🧠 Purpose
 
-Called using axios in the React Native app
+This project was developed to practice:
+- AI API integration in mobile applications  
+- Text classification and sentiment analysis  
+- State management using Context API  
+- Data persistence with AsyncStorage  
 
-Requires an API Key stored in a .env file
+It focuses on building a practical AI-powered mobile application with clean logic and a simple user experience.
 
+---
 
+## 📋 Requirements
+
+- Node.js  
+- npm or yarn  
+- React Native CLI  
+- Android Studio (emulator or real device)  
+- Java Development Kit (JDK)  
+- Visual Studio Code  
+
+---
+
+## 🛠️ Installation & Setup
+
+1. Download or clone the project files  
+2. Open the project in **Visual Studio Code**  
+3. Install dependencies:
+   ```bash
+   npm install
